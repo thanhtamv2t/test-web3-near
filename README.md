@@ -19,14 +19,17 @@ const params = {
         account_id: account
     }
 }
-const result = await window.coin98?.near.request({method: 'near_view', params})```
+const result = await window.coin98?.near.request({method: 'near_view', params})
+```
 
 
 ## Sign And Send
+
 ```Javascript
 const params = {
     transactions,
     receiver: account
 }
 
-const result = await window.coin98?.near.request({method: 'near_signAndSendTransaction', params})```
+const result = await window.coin98?.near.request({method: 'near_signAndSendTransaction', params})
+```
